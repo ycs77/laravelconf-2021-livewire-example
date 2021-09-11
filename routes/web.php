@@ -1,18 +1,12 @@
 <?php
-
+// use App\Http\Livewire\Basic;
+use App\Http\Livewire\Counter;
+use App\Http\Livewire\DataBinding;
+use App\Http\Livewire\Polling;
+use App\Http\Livewire\Search;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', Counter::class);
+Route::get('data-binding', DataBinding::class);
+Route::get('polling', Polling::class);
+Route::get('search', Search::class);
