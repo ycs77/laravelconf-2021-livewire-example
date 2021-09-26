@@ -61,5 +61,8 @@ class Language extends Model
         ['name' => 'Apex'],
         ['name' => 'TypeScript'],
         ['name' => 'Bash'],
+
+        // 其他
+        ['name' => 'Vue.js'],
     ];
 }

@@ -1,5 +1,5 @@
-<div style="text-align: center">
-    <button wire:click="increment">+</button>
+<div class="text-center">
+    <button wire:click="increment" class="btn">+</button>
 
-    <h1>{{ $count }}</h1>
+    <h1 class="text-2xl font-bold mt-4">{{ $count }}</h1>
 </div>

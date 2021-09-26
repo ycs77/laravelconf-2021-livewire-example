@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-light;
+  }
+
+  a {
+    @apply text-primary transition-colors;
+  }
+
+  input[type=text],
+  input[type=password],
+  textarea {
+    @apply block w-[300px] p-2 border border-gray-300 rounded focus:outline-none;
+  }
+  textarea {
+    @apply resize-none;
+  }
+
+  label {
+    @apply inline-block mb-1;
+  }
+}
+
+@layer components {
+  .brand {
+    @apply text-primary text-2xl font-extrabold;
+  }
+
+  .nav a, .nav button {
+    @apply block text-gray-400 hover:text-primary pt-3 pb-2 border-b-4 border-transparent text-lg tracking-wider;
+  }
+  .nav a.active {
+    @apply text-primary border-primary;
+  }
+
+  .title {
+    @apply mb-1 text-2xl font-bold text-gray-700;
+  }
+
+  .btn {
+    @apply inline-block bg-primary text-white px-5 py-1.5 rounded;
+  }
+
+  form .btn {
+    @apply w-[300px] mt-4;
+  }
+  form .invalid {
+    @apply text-red-500;
+  }
+
+  .input-group {
+    @apply mt-4;
+  }
+}
