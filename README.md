@@ -12,4 +12,6 @@ Lucas 在 [{Laravel x Vue}Conf Taiwan 2021](https://laravelconf.tw/)
 composer install
 ```
 
-想了解更多 Livewire，請瀏覽 [Livewire 官網](https://laravel-livewire.com/)
+## 了解 Livewire
+
+請瀏覽 [Livewire 官網](https://laravel-livewire.com/)
