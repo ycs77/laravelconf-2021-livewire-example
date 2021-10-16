@@ -1,6 +1,8 @@
-# Livewire vs Inertia.js | 關於如何選擇全端框架這檔事 - Livewire 範例
+# Livewire 範例
 
-Lucas 在 [{Laravel x Vue}Conf Taiwan 2021](https://laravelconf.tw/) 分享 Livewire 和 Inertia.js 的議程
+Lucas 在 [{Laravel x Vue}Conf Taiwan 2021](https://laravelconf.tw/)
+
+分享議程「Livewire vs Inertia.js | 關於如何選擇全端框架這檔事」的 Livewire 範例
 
 簡報：[SPA](https://laravelconf-2021-livewire-inertiajs-slide.vercel.app/) | [PDF](https://laravelconf-2021-livewire-inertiajs-slide.vercel.app/pdf)
 
@@ -10,4 +12,4 @@ Lucas 在 [{Laravel x Vue}Conf Taiwan 2021](https://laravelconf.tw/) 分享 Live
 composer install
 ```
 
-想了解 Livewire，請移步 [Livewire 官網](https://laravel-livewire.com/)
+想了解更多 Livewire，請瀏覽 [Livewire 官網](https://laravel-livewire.com/)
